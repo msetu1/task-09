@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodieland</title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="style.css">
+    
+     <!-- google font lobster  -->
+     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+      </style>
+
+    <!-- tailwind and daisy  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+   <!-- navbar section  -->
+   <section">
+    <div class="lg:mx-32 mt-5 ">
+        <div class="navbar ">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li>Home</li>
+                  <li>Recipes</li>
+                  <li>Blog</li>
+                  <li>Contact</li>
+                  <li>About Us</li>
+                </ul>
+              </div>
+              <h1 class="font-bold text-2xl lobster-regular hidden lg:block">Foodieland <span class="text-red-600">.</span> </h1>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 flex item-center gap-6 font-bold text-xl text-gray-600
+              ">
+                <li>Home</li>
+                <li>Recipes</li>
+                <li>Blog</li>
+                <li>Contact</li>
+                <li>About Us</li>
+              </ul>
+            </div>
+            <div class="navbar-end ">
+              <div class="flex item-center gap-5">
+                <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/mD0CZFx/Path.png" alt="">
+                <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/0msPNqT/Path-1.png" alt="">
+                <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/9YqPtYb/004-instagram.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+   </section>
+
+   <!-- banner section  -->
+    <section class="mt-10">
+      <div class="flex item-center gap-12">
+        <!-- card 1  -->
+<div class="hidden lg:block">
+  <img class="h-full" src="https://i.ibb.co.com/yR0PWwg/Rectangle-5.png" alt="">
+</div>
+        <!-- card 2  -->
+<div class="flex flex-col lg:flex-row w-full lg:w-[100%]">
+<div class="wfull lg:w-[50%]  bg-[#E7FAFE] lg:rounded-l-3xl pt-16 px-8">
+  <div class="flex items-center gap-2 mb-10">
+    <button class="font-bold bg-white rounded-3xl px-6 py-2">Hot Recipes</button>
+  </div>
+  <h2 class="lg:text-6xl text-4xl font-bold mb-7">Spicy delicious <br> chicken wings</h2>
+  <p class="text-gray-500">Spicy chicken wings are crispy wings coated in a fiery sauce, usually made with hot sauce, chili, and garlic. They can be baked or fried until golden and crunchy. The sauce adds a bold, tangy heat, perfect for those who love spicy food. Commonly served with ranch or blue cheese to cool down the spice. They're a favorite for parties, game days, and casual snacks!</p>
+  <div class="flex items-center gap-4 mt-8 mb-10 lg:mb-20">
+    <button class="flex item-center gap-2 bg-[#0000001a]
+    px-6 py-2 rounded-3xl">
+      <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+      <h4>30 Minutes</h4>
+    </button>
+    <button class="flex item-center bg-[#0000001a] px-6 py-2 rounded-3xl">
+    <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+    <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+    <h4 class="ml-2">Snack</h4>
+  </button>
+  </div>
+<div class="flex items-center justify-between lg:pb-0 pb-5">
+  <div class="flex items-center gap-2">
+    <img src="https://i.ibb.co.com/D4J3Xv7/Ellipse-2.png" alt="">
+    <div>
+      <h2 class="font-bold">John Smith</h2>
+      <p class="text-gray-400">15 March 2022</p>
+    </div>
+  </div>
+  <button class="font-bold px-6 py-3 rounded-2xl text-white bg-black">View Recipes</button>
+</div>
+</div>
+<div class="wfull lg:w-[50%] ">
+  <img class="w-full lg:rounded-r-3xl" src="https://i.ibb.co.com/52qC0VZ/baked-chicken-wings-asian-style-tomatoes-sauce-plate-1.png" alt="">
+</div>
+</div>
+        <!-- card 3  -->
+<div class="hidden lg:block">
+  <img class="h-full" src="https://i.ibb.co.com/C9CJRhW/Rectangle-6.png" alt="">
+</div>
+</div>
+
+    </section>
+
+   <!-- Categories sections  -->
+    <section class="mx-6 lg:mx-32 mt-20  lg:mt-40 lg:mb-20 ">
+        <div class="flex item-center justify-between mb-40">
+           <h2 class="text-4xl font-bold">Categories</h2>  
+           <button class="font-semibold px-3 py-2 rounded-xl bg-[#E7FAFE]
+           ">View All Categories</button>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-36 lg:gap-8">
+<div class=" categories-relative ">
+   <div class="bg-gradient-to-t from-[#7082461a] to-[#70824600] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Breakfast</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:lg:left-6 left-32 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/CBy4x50/download-removebg-preview.png" alt="">
+   </div>
+</div>
+<div class=" categories-relative">
+   <div class="bg-gradient-to-t from-[#6cc63f1a] to-[#6cc63f00] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Vegan</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:left-6 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/hKDpMzf/images-1-removebg-preview.png" alt="">
+   </div>
+</div>
+<div class=" categories-relative">
+   <div class=" bg-gradient-to-t from-[#cc261b1a] to-[#cc261b00
+   ] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Meat</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:left-6 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/vzjV4Zt/download-1-removebg-preview.png" alt="">
+   </div>
+</div>
+<div class=" categories-relative">
+   <div class="bg-gradient-to-t from-[#f09e001a] to-[#70824600] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Dessert</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:left-6 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/Bfqg1Hr/download-2-removebg-preview.png" alt="">
+   </div>
+</div>
+<div class=" categories-relative">
+   <div class="bg-gradient-to-t from-[#0000000d] to-[#00000000] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Lunch</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:left-6 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/Wnb5YQP/images-2-removebg-preview.png" alt="">
+   </div>
+</div>
+<div class=" categories-relative">
+   
+   <div class="bg-gradient-to-t from-[#7082461a] to-[#70824600] rounded-3xl  ">
+    <h3 class="text-xl font-bold pt-20 px-10 pb-5 text-center">Chocolate</h3>
+   </div>
+   <div class="categories-absolutely -top-24 lg:left-6 left-32">
+    <img class="w-[150px] h-[150px] drop-shadow-2xl" src="https://i.ibb.co.com/Y7DqWjy/images-3-removebg-preview.png" alt="">
+   </div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Simple and tasty recipes section  -->
+    <section class="mx-6 lg:mx-32 lg:my-40 my-20">
+<div class="text-center mb-16">
+    <h2 class="text-4xl font-bold mb-4">Simple and tasty recipes</h2>
+    <p class="text-gray-400">Food is any nutrient-rich material consumed or absorbed by humans, animals, <br> or plants in order to sustain life and growth. </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+        <div class="categories-relative">
+          <figure>
+            <img class="rounded-2xl w-full"
+              src="https://i.ibb.co.com/VpKk98T/image-26-1.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-5">
+            <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+          </div>
+        </div>
+        <div class="card-body">
+            <h2 class="text-2xl font-bold">
+              Big and Juicy Wagyu Beef Cheeseburger
+             </h2>
+           <div class="flex item-center gap-8 mt-4">
+  <div class="flex item-center gap-2">
+      <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+      <h4>30 Minutes</h4>
+  </div>
+  <div class="flex item-center">
+      <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+      <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+      <h4 class="ml-2">Snack</h4>
+  </div>
+           </div>
+          </div>
+    </div>
+    <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+        <div class="categories-relative">
+          <figure>
+            <img class="rounded-2xl w-full"
+              src="https://i.ibb.co.com/PtyPtKc/image-26-2.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-5">
+            <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+          </div>
+        </div>
+        <div class="card-body">
+            <h2 class="text-2xl font-bold">
+              Fresh Lime Roasted Salmon with Ginger Sauce
+             </h2>
+           <div class="flex item-center gap-8 mt-4">
+  <div class="flex item-center gap-2">
+      <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+      <h4>30 Minutes</h4>
+  </div>
+  <div class="flex item-center">
+      <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+      <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+      <h4 class="ml-2">Fish</h4>
+  </div>
+           </div>
+          </div>
+    </div>
+    <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+        <div class="categories-relative">
+          <figure>
+            <img class="rounded-2xl w-full"
+              src="https://i.ibb.co.com/gmktcL8/image-26-3.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-5">
+            <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+          </div>
+        </div>
+        <div class="card-body">
+            <h2 class="text-2xl font-bold">
+              Strawberry Oatmeal Pancake with Honey Syrup
+             </h2>
+           <div class="flex item-center gap-8 mt-4">
+  <div class="flex item-center gap-2">
+      <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+      <h4>30 Minutes</h4>
+  </div>
+  <div class="flex item-center">
+      <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+      <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+      <h4 class="ml-2">Breakfast</h4>
+  </div>
+           </div>
+          </div>
+    </div>
+    <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+        <div class="categories-relative">
+          <figure>
+            <img class="rounded-2xl w-full"
+              src="https://i.ibb.co.com/71r1CZy/image-26-4.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-5">
+            <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+          </div>
+        </div>
+        <div class="card-body">
+            <h2 class="text-2xl font-bold">
+              Fresh and Healthy Mixed Mayonnaise Salad
+             </h2>
+           <div class="flex item-center gap-8 mt-4">
+  <div class="flex item-center gap-2">
+      <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+      <h4>30 Minutes</h4>
+  </div>
+  <div class="flex item-center">
+      <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+      <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+      <h4 class="ml-2">Healthy</h4>
+  </div>
+           </div>
+          </div>
+    </div> 
+    <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+      <div class="categories-relative">
+        <figure>
+          <img class="rounded-2xl w-full"
+            src="https://i.ibb.co.com/drZjHT8/image-26-5.png"
+            alt="" />
+        </figure>
+        <div class="categories-absolutely end-0 top-0 p-5">
+          <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+        </div>
+      </div>
+      <div class="card-body">
+          <h2 class="text-2xl font-bold">
+            Chicken Meatballs with Cream Cheese
+           </h2>
+         <div class="flex item-center gap-8 mt-4">
+<div class="flex item-center gap-2">
+    <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+    <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+    <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+    <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+    <h4 class="ml-2">Meat</h4>
+</div>
+         </div>
+        </div>
+  </div>
+    <!-- card 6  -->
+  <div class="card  w-[420px] h-full categories-relative">
+      <img src="https://i.ibb.co.com/0jdYxCC/Rectangle-14.png" alt="">
+<div class="categories-absolutely top-10 left-24">
+<h2 class="text-2xl font-bold text-center text-white">Don’t forget to eat <br>
+  healthy food</h2>
+</div>
+<div class="categories-absolutely top-28 left-10 recipes-bg-star">
+<img class="" src="https://i.ibb.co.com/ChdQPrZ/01.png" alt="">
+</div>
+<div class="categories-absolutely bottom-16 left-28">
+<h2 class="text-xl font-bold text-white">www.foodieland.com</h2>
+</div>
+
+  </div>
+ 
+  <div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/26Q9pz6/image-26-6.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-5">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+      </div>
+    </div>
+    <div class="card-body">
+        <h2 class="text-2xl font-bold">
+          Fruity Pancake with Orange & Blueberry
+         </h2>
+       <div class="flex item-center gap-8 mt-4">
+<div class="flex item-center gap-2">
+  <img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Sweet</h4>
+</div>
+       </div>
+      </div>
+</div>
+<div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+  <div class="categories-relative">
+    <figure>
+      <img class="rounded-2xl w-full"
+        src="https://i.ibb.co.com/PcgNN4Z/image-26-7.png"
+        alt="" />
+    </figure>
+    <div class="categories-absolutely end-0 top-0 p-5">
+      <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+    </div>
+  </div>
+  <div class="card-body">
+      <h2 class="text-2xl font-bold">
+        The Best Easy One Pot Chicken and Rice
+       </h2>
+     <div class="flex item-center gap-8 mt-4">
+<div class="flex item-center gap-2">
+<img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+<h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+<img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+<img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+<h4 class="ml-2">Snack</h4>
+</div>
+     </div>
+    </div>
+</div>
+<div class="card bg-[#E7F9FD] w-[420px] p-5 shadow-xl">
+  <div class="categories-relative">
+    <figure>
+      <img class="rounded-2xl w-full"
+        src="https://i.ibb.co.com/1rKwhfG/image-26-8.png"
+        alt="" />
+    </figure>
+    <div class="categories-absolutely end-0 top-0 p-5">
+      <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+    </div>
+  </div>
+  <div class="card-body">
+      <h2 class="text-2xl font-bold">
+        The Creamiest Creamy Chicken and Bacon Pasta
+       </h2>
+     <div class="flex item-center gap-8 mt-4">
+<div class="flex item-center gap-2">
+<img class="w-[25px] h-[25px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+<h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+<img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+<img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+<h4 class="ml-2">Noodles</h4>
+</div>
+     </div>
+    </div>
+</div>
+</div>
+    </section>
+
+    <!-- Everyone can be a
+chef in their own kitchen section  -->
+    <section class="mx-6 lg:mx-32 lg:mb-40 mb-20">
+ <div class="flex flex-col lg:flex-row gap-10 lg:gap-0">
+  <div class="w-full lg:w-[50%]  flex items-center justify-center">
+    <div>
+      <h2 class="lg:text-5xl text-3xl font-bold mb-4 lg:mb-8">Everyone can be a <br>
+        chef in their own kitchen</h2>
+      <p class="lg:pr-32 text-gray-400">In the fictitious Beef kitchen, Carmy's insistency on calling everyone in the kitchen “chef” as a sign of respect helps build community and confidence within his team. However, in a real-life kitchen, our chefs said that this is purely circumstantial depending on the restaurant.</p>
+      <button class=" px-6 py-3 bg-black rounded-xl text-white mt-8 lg:mt-16 text-xl">Learn More</button>
+  </div>
+
+   </div>
+   <div class="w-full lg:w-[50%]  categories-relative ">
+   <img class="" src="https://i.ibb.co.com/FqpmnW8/portrait-happy-male-chef-dressed-uniform-1.png" alt="">
+   <div class="categories-absolutely top-24">
+<img src="https://i.ibb.co.com/R7s3YF1/Rectangle-8.png" alt="">
+   </div>
+   <div class="categories-absolutely bottom-12 lg:bottom-28">
+<img src="https://i.ibb.co.com/vsJb0sF/image-27.png" alt="">
+   </div>
+   <div class="categories-absolutely lg:top-24 top-5 left-20">
+<img src="https://i.ibb.co.com/nsk0cfC/image-21.png" alt="">
+   </div>
+   <div class="categories-absolutely top-24 lg:right-32 right-16">
+<img src="https://i.ibb.co.com/Jx1Hrsn/image-28.png" alt="">
+   </div>
+   <div class="categories-absolutely top-48 lg:right-6 right-4">
+<img src="https://i.ibb.co.com/k23H4zZ/image-20.png" alt="">
+   </div>
+   </div>
+ </div>
+    </section>
+
+ <!-- Check out @foodieland on Instagram section  -->
+    <section class=" bg-gradient-to-t from-[#E7f9FD] to-[#70824600]">
+<div class="lg:mx-32 lg:mb-32 lg:pb-16">
+  <div class="text-center  my-10">
+    <h2 class="lg:text-4xl text-3xl font-bold mb-5">Check out @foodieland on Instagram</h2>
+    <p class="text-gray-400">@foodieland on Instagram is connected to FoodieLand Night Market, a large multicultural food festival that <br> takes place in various cities across the U.S., including Los Angeles, San Francisco, and Las Vegas. </p>
+    </div>
+    <div class="mx-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="pb-6 bg-[#FFFFFF]
+      ">
+    <div class="flex items-center justify-between  p-3">
+    <div class="flex items-center gap-3">
+      <div>
+        <img class="w-[35px] h-[35px]" src="./img/Oval.png" alt="">
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h2 class="font-bold">Foodieland.</h2>
+          <img class="w-[15px] h-[15px]" src="./img/Shape-2.png" alt="">
+        </div>
+        <p class="text-gray-400">Tokyo, Japan</p>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/Shape.png" alt="">
+    </div>
+    </div>
+        <div class="categories-relative">
+          <figure>
+            <img class=" w-full"
+              src="https://i.ibb.co.com/g3hbXNN/Rectangle.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-4">
+            <h2 class="bg-[#121212B2] text-white p-2 rounded-full">1/3</h2>
+            
+          </div>
+        </div>
+        <div class=" p-3">
+           <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./img/icon-1.png" alt="">
+              <img src="./img/icon-2.png" alt="">
+              <img src="./img/icon-3.png" alt="">
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="./img/dot-3.png" alt="">
+    <img src="./img/dot.png" alt="">
+    <img src="./img/dot.png" alt="">
+            </div>
+            <div>
+    <img src="./img/icon-4.png" alt="">
+            </div>
+           </div>
+           <div class="flex items-center gap-3 my-3">
+            <img src="./img/icon-5.png" alt="">
+            <h2>Liked by <span class="font-bold text-gray-500">craig_love</span> and <span class="font-bold text-gray-500">44,686</span></h2>
+           </div>
+           <h2><span class="font-bold text-gray-500">Foodieland.</span> The vegetables dishes need to have certain vitamin for those people</h2>
+           <p class="font-bold text-gray-300">September 19</p>
+        </div>
+      </div>
+      <div class="pb-6 bg-[#FFFFFF]">
+    <div class="flex items-center justify-between  p-3">
+    <div class="flex items-center gap-3">
+      <div>
+        <img class="w-[35px] h-[35px]" src="./img/Oval.png" alt="">
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h2 class="font-bold">Foodieland.</h2>
+          <img class="w-[15px] h-[15px]" src="./img/Shape-2.png" alt="">
+        </div>
+        <p class="text-gray-400">Tokyo, Japan</p>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/Shape.png" alt="">
+    </div>
+    </div>
+        <div class="categories-relative">
+          <figure>
+            <img class=" w-full"
+              src="https://i.ibb.co.com/WsrvVRg/Rectangle-1.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-4">
+            <h2 class="bg-[#121212B2] text-white p-2 rounded-full">1/3</h2>
+            
+          </div>
+        </div>
+        <div class=" p-3">
+           <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./img/icon-1.png" alt="">
+              <img src="./img/icon-2.png" alt="">
+              <img src="./img/icon-3.png" alt="">
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="./img/dot-3.png" alt="">
+    <img src="./img/dot.png" alt="">
+    <img src="./img/dot.png" alt="">
+            </div>
+            <div>
+    <img src="./img/icon-4.png" alt="">
+            </div>
+           </div>
+           <div class="flex items-center gap-3 my-3">
+            <img src="./img/icon-5.png" alt="">
+            <h2>Liked by <span class="font-bold text-gray-500">craig_love</span> and <span class="font-bold text-gray-500">44,686</span></h2>
+           </div>
+           <h2><span class="font-bold text-gray-500">Foodieland.</span> The vegetables dishes need to have certain vitamin for those people</h2>
+           <p class="font-bold text-gray-300">September 19</p>
+        </div>
+      </div>
+      <div class="pb-6 bg-[#FFFFFF]">
+    <div class="flex items-center justify-between  p-3">
+    <div class="flex items-center gap-3">
+      <div>
+        <img class="w-[35px] h-[35px]" src="./img/Oval.png" alt="">
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h2 class="font-bold">Foodieland.</h2>
+          <img class="w-[15px] h-[15px]" src="./img/Shape-2.png" alt="">
+        </div>
+        <p class="text-gray-400">Tokyo, Japan</p>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/Shape.png" alt="">
+    </div>
+    </div>
+        <div class="categories-relative">
+          <figure>
+            <img class=" w-full"
+              src="https://i.ibb.co.com/Gk9LKDh/Rectangle-2.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-4">
+            <h2 class="bg-[#121212B2] text-white p-2 rounded-full">1/3</h2>
+            
+          </div>
+        </div>
+        <div class=" p-3">
+           <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./img/icon-1.png" alt="">
+              <img src="./img/icon-2.png" alt="">
+              <img src="./img/icon-3.png" alt="">
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="./img/dot-3.png" alt="">
+    <img src="./img/dot.png" alt="">
+    <img src="./img/dot.png" alt="">
+            </div>
+            <div>
+    <img src="./img/icon-4.png" alt="">
+            </div>
+           </div>
+           <div class="flex items-center gap-3 my-3">
+            <img src="./img/icon-5.png" alt="">
+            <h2>Liked by <span class="font-bold text-gray-500">craig_love</span> and <span class="font-bold text-gray-500">44,686</span></h2>
+           </div>
+           <h2><span class="font-bold text-gray-500">Foodieland.</span> The vegetables dishes need to have certain vitamin for those people</h2>
+           <p class="font-bold text-gray-300">September 19</p>
+        </div>
+      </div>
+      <div class="pb-6 bg-[#FFFFFF]">
+    <div class="flex items-center justify-between  p-3">
+    <div class="flex items-center gap-3">
+      <div>
+        <img class="w-[35px] h-[35px]" src="./img/Oval.png" alt="">
+      </div>
+      <div>
+        <div class="flex items-center gap-2">
+          <h2 class="font-bold">Foodieland.</h2>
+          <img class="w-[15px] h-[15px]" src="./img/Shape-2.png" alt="">
+        </div>
+        <p class="text-gray-400">Tokyo, Japan</p>
+      </div>
+    </div>
+    <div class="">
+      <img src="./img/Shape.png" alt="">
+    </div>
+    </div>
+        <div class="categories-relative">
+          <figure>
+            <img class=" w-full"
+              src="https://i.ibb.co.com/ftpFJ37/Rectangle-3.png"
+              alt="" />
+          </figure>
+          <div class="categories-absolutely end-0 top-0 p-4">
+            <h2 class="bg-[#121212B2] text-white p-2 rounded-full">1/3</h2>
+            
+          </div>
+        </div>
+        <div class=" p-3">
+           <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="./img/icon-1.png" alt="">
+              <img src="./img/icon-2.png" alt="">
+              <img src="./img/icon-3.png" alt="">
+            </div>
+            <div class="flex items-center gap-2">
+              <img src="./img/dot-3.png" alt="">
+    <img src="./img/dot.png" alt="">
+    <img src="./img/dot.png" alt="">
+            </div>
+            <div>
+    <img src="./img/icon-4.png" alt="">
+            </div>
+           </div>
+           <div class="flex items-center gap-3 my-3">
+            <img src="./img/icon-5.png" alt="">
+            <h2>Liked by <span class="font-bold text-gray-500">craig_love</span> and <span class="font-bold text-gray-500">44,686</span></h2>
+           </div>
+           <h2><span class="font-bold text-gray-500">Foodieland.</span> The vegetables dishes need to have certain vitamin for those people</h2>
+           <p class="font-bold text-gray-300">September 19</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex items-center justify-center pb-5 lg:pb-0 mt-5 lg:mt-16">
+      <button class="bg-black px-6 py-3 rounded-2xl flex items-center gap-2 text-white">
+        <div class="">Visit Our Instagram </div>
+        <img class="bg-white" src="https://i.ibb.co.com/9YqPtYb/004-instagram.png" alt="">
+      </button>
+    </div>
+</div>
+    </section>
+
+ <!-- Try this delicious recipe
+to make your day section -->
+<section class="lg:mx-32 mx-6 lg:mb-40 mb-20 mt-20 lg:mt-0">
+  <div class="flex flex-col lg:flex-row item-center gap-5 lg:gap-48 mb-16 justify-between">
+<h1 class="text-3xl lg:text-4xl font-bold">Try this delicious recipe <br>
+  to make your day</h1>
+  <p class="text-gray-400">Olfaction makes up a majority of the unique flavors that we experience <br> as it faces  fewer restrictions on the odor qualities it can pick up.</p>
+  </div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/9NFVt5w/image-26-9.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Mixed Tropical Fruit Salad with Superfood Boosts 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Healthy</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/FBfL8ZT/image-26-11.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Big and Juicy Wagyu Beef Cheeseburger 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Western</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/9hk2K9S/image-26-12.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Healthy Japanese Fried Rice with Asparagus
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Healthy</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/J2ZqkJ1/image-26-13.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Cauliflower Walnut Vegetarian Taco Meat
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Eastern</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/yQqR7xC/image-26-14.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Rainbow Chicken Salad with Almond Honey Mustard 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Healthy</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/N92xbJ1/image-26-15.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Barbeque Spicy Sandwiches with Chips 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Snack</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/MszMMqQ/image-26-16.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/Xp12rxp/Vector-3.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Firecracker Vegan Lettuce Wraps - Spicy! 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Seafood</h4>
+</div>
+       </div>
+      </div>
+  </div>
+  <div class="pb-6">
+    <div class="categories-relative">
+      <figure>
+        <img class="rounded-2xl w-full"
+          src="https://i.ibb.co.com/fNfsycr/image-26-17.png"
+          alt="" />
+      </figure>
+      <div class="categories-absolutely end-0 top-0 p-4">
+        <img class="bg-white p-4 rounded-full" src="https://i.ibb.co.com/4fPQ0Fr/Heart.png" alt="">
+      </div>
+    </div>
+    <div class=" mt-5">
+        <h2 class="text-xl font-bold">
+          Chicken Ramen Soup with Mushroom 
+         </h2>
+       <div class="flex item-center gap-8 mt-8">
+<div class="flex item-center gap-2">
+  <img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/S7VJKY5/Vector.png" alt="">
+  <h4>30 Minutes</h4>
+</div>
+<div class="flex item-center">
+  <img src="https://i.ibb.co.com/9YfmWY3/Vector-1.png" alt="">
+  <img src="https://i.ibb.co.com/18gBRYW/Vector-2.png" alt="">
+  <h4 class="ml-2">Japanese</h4>
+</div>
+       </div>
+      </div>
+  </div>
+
+</div>
+</section>
+
+<!-- Deliciousness to your inbox section  -->
+ <section class="lg:mx-32 mx-6 lg:mb-40 mb-20 border py-[68px] rounded-3xl bg-[#E7F9FD]
+ ">
+<div class="categories-relative">
+  <div class="text-center">
+    <h2 class=" lg:text-4xl text-2xl font-bold mb-4">Deliciousness to your inbox</h2>
+    <p class="text-gray-400">Hi, I am setu akther . Can I help you? Please, <br> choice your recipe and inbox me.</p>
+    <div class="flex item-center mt-5 justify-center">
+  <input class="p-3 rounded-l-xl lg:w-[300px] w-[150px]" type="email" name="" id="" placeholder="Your email address...">
+  <div>
+    <button class="px-6 py-3 bg-black font-bold text-white rounded-r-2xl">Subscribe</button>
+  </div>
+    </div>
+  </div>
+  <div class="categories-absolutely top-32 lg:-top-[137px]">
+<img class="w-[100px] lg:w-full rounded-3xl" src="https://i.ibb.co.com/SwM1Ndj/kisspng-salad-salad-fresh-food-healthylife-vegetables-vegetarian-5d42e3a7cb8543-1.png" alt="">
+  </div>
+  <div class="categories-absolutely end-0 lg:-top-0 top-36">
+<img class="rounded-3xl w-[100px] lg:w-full" src="https://i.ibb.co.com/2kKwVtN/Photo-plate.png" alt="">
+  </div>
+  <div class="categories-absolutely lg:end-[250px] end-[100px] lg:top-16">
+<img class="w-[50px] lg:w-full" src="https://i.ibb.co.com/TttN04Y/rucola-png.png" alt="">
+  </div>
+</div>
+ </section>
+
+ <!-- footer section  -->
+  <section class="mx-6 lg:mx-32 mb-10 ">
+    <div class="flex flex-col lg:flex-row item-center justify-between">
+      <div class="">
+        <h1 class="font-bold text-2xl lobster-regular">Foodieland <span class="text-red-600">.</span> </h1>
+        <p class="text-gray-400 font-bold">This website is very nice.</p>
+      </div>
+      <div class="">
+        <ul class="menu menu-horizontal px-1 flex item-center gap-5 font-bold text-lg text-black 
+        ">
+          <li>Home</li>
+          <li>Recipes</li>
+          <li>Blog</li>
+          <li>Contact</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="divider my-10"></div>
+    <div class="flex flex-col lg:flex-row item-center justify-between"">
+<div>
+ 
+</div>
+<div>
+  <h2 class="font-bold text-lg text-gray-400 ">© 2020 Flowbase. Powered by <span class="text-red-600 ">Webflow</span></h2>
+</div>
+<div class="flex item-center gap-5">
+<img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/mD0CZFx/Path.png" alt="">
+<img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/0msPNqT/Path-1.png" alt="">
+<img class="w-[20px] h-[20px]" src="https://i.ibb.co.com/9YqPtYb/004-instagram.png" alt="">
+</div>
+    </div>
+    
+  </section>
+</body>
+</html>
